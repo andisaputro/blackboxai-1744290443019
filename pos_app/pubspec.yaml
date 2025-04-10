@@ -1,0 +1,28 @@
+name: pos_app
+description: A Point of Sale application with local and MySQL database sync.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  http: ^1.1.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.1
+  mysql1: ^0.20.0
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
